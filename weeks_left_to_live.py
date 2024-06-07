@@ -1,6 +1,7 @@
 age = input("How old are you? ")
+die = input("How old do you think you'll live to be? ")
 
-years = 90 - int(age)
+years = int(die) - int(age)
 weeks = years * 52
 days = weeks * 7
 
